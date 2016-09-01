@@ -1,0 +1,72 @@
+
+<div class="bg-dark">
+<!-- header -->
+	<header class="sign_in-header wider-header" style="height: 100vh;">
+		<h1 style="margin-top: 30vh;">Smuggler<br class="visible-xs"><span class="text-primary">number</span></h1>
+		<div class="demo-wrapper css3-bounce-effect" style="width: 100%;position: absolute; bottom:15px; text-align: center">
+			<div class="css3-notification">
+				<h4  class="text-uppercase text-default">Scroll to explore</h4>
+				<img src="images/arrow-down.png" width="20px;">
+			</div>
+		</div>
+		
+	</header>
+	<header class="sign_in-header">
+		<h1>Sign<br class="visible-xs"><span class="text-primary"> in</span></h1>
+	</header>
+
+	<div class="row sign_in-area"  ng-controller="checkexistence">
+<!-- block with create new account -->
+		<div class="col-lg-3 col-lg-offset-3 col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1" style="margin-top: 20px"  >
+			<div class="sign-box">
+				<h4>Create new account</h4>
+				<div class="sign_in-form" >
+					<form name="checkform" >
+						<div class="input">
+							<label for="email-sign-in">E-mail Address <span class="text-primary">*</span></label><br>
+							<input ng-name="email" type="text" name="emailid"  ng-model="emailid" required >
+						</div>
+<!-- button -->
+						<a ng-click="checkuser()" class="btn btn-primary"  >GET STARED</a>
+<!-- line for phones -->
+						<hr class="visible-xs">
+					</form>
+				</div>
+			</div>
+		</div>
+<!-- block with sign in -->
+		<div class="col-lg-3 col-md-4 col-sm-5"  style="border-left: 1px solid gray; margin-top: 20px">
+			<div class="sign-box">
+				<h4>Already a member? Sign in</h4>
+				<div class="sign_in-form">
+					<form name="registerform">
+<!-- email -->					
+						<div class="input">
+							<label for="email-sign-in-2">E-mail Address <span class="text-primary">*</span></label><br>
+							<input  type="text" name="logemail" id="email-sign-in-2" ng-model="logid">
+						</div>
+<!-- pass-->							
+						<div class="input">
+							<label for="pass-sign-in">Password <span class="text-primary">*</span><span  style="float: right;"><a href="">Forgot your Password?</a> </span></label><br>
+						<input  type="text" name="" id="pass-sign-in">
+						</div>
+<!-- button -->							
+						<div class="btn btn-primary">
+							<a href="#">Sign In</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row help">
+		<div class="col-lg-12 text-center">
+			<h4 class="text-default text-center">Need Help? Call 1 (000) 000 0000</h4>
+		</div>		
+	</div>
+
+</div>	<script>
+
+</script>

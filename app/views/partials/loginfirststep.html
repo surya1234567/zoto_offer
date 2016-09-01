@@ -1,0 +1,169 @@
+
+<div>
+<!--&lt;!&ndash; header &ndash;&gt;-->
+	<!--<header class="sign_in-header wider-header">-->
+		<!--<h1>Smuggler<br class="visible-xs"><span class="text-primary">number</span></h1>-->
+	<!--</header>-->
+
+<!-- 1,2,3 header steps -->
+	<div class="row steps">
+		<div class="col-lg-8 col-lg-offset-3">
+			<div class="step-block">
+				<div class="text-primary step"><span class="number">1</span> Create Account</div>
+			</div>
+			<div class="step-block">
+				<div class="step text-muted "><span class="number">2</span> Set Stay Preferences</div>
+			</div>
+			<div class="step-block">
+				<div class="text-muted "><span class="number ">3</span> Stay Connected</div>
+			</div>
+		</div>
+	</div>
+
+ 	<div class="row bg-dark text-default">
+		<div class="col-lg-2 col-lg-offset-3">
+		<p style="padding-top:20px; font-size: 18px;"><span class="text-primary" >*</span>Required fields</p>
+		</div>
+	</div>
+
+<!-- login pass info -->
+	<div class="row bg-dark text-default">
+		<div class="col-lg-2 col-lg-offset-3">
+			<h3 class="text-capitalize">Login/Password</h3>
+			<p class="text-justify" style="width:180px;"> Passwords are a necessary nuisance. We need 8 characters, including a number, and we can’t have any portion of your email.</p>
+		</div>
+		<div class="col-lg-4 block-form" ng-controller="stickdata">
+			<div class="sign_in-form">
+					<form>
+										<!-- email -->
+						<div class="input input-create">
+							<label for="email-sign-in">E-mail <span class="text-primary">*</span></label>
+							<input  type="text" name="" id="email-sign-in" ng-model="loginemail">
+						</div>
+<!-- create pass -->
+						<div class="input input-create">
+							<label for="email-sign-in">Create Password <span class="text-primary">*</span></label>
+							<input  type="text" name="" id="email-sign-in">
+						</div>
+<!-- repeat pass -->
+						<div class="input input-create">
+							<label for="email-sign-in">Confirm Password <span class="text-primary">*</span></label>
+							<input  type="text" name="" id="email-sign-in">
+						</div>
+
+					</form>
+				</div>
+		</div>
+	</div>
+
+	<div class="row bg-dark text-default">
+		<div class="col-lg-2 col-lg-offset-3">
+			<h3 class="text-capitalize">My Personal Information</h3>
+			<p class="text-justify" style="width:180px;">Let's start by creating your member account. It only takes a few moments.</p>
+		</div>
+		<div class="col-lg-4 block-form">
+			<div class="sign_in-form">
+					<form>
+<!-- salutation -->
+						<div class="input input-create">
+							<label for="salutation">Salutation <span class="text-primary">*</span></label>
+							<select id="salutation">
+								<option>Mr.</option>
+								<option>Ms.</option>
+								<option>Mrs.</option>
+								<option>Doctor</option>
+							</select>
+						</div>
+<!-- gender -->
+						<div class="input input-create">
+							<label>Gender <span class="text-primary">*</span></label>
+							<input  type="radio" name="gender" id="chk1" value="male"><label for="chk1" class="text-uppercase label-radio">Male</label>
+							<input  type="radio" name="gender" id="chk2" value="female"><label for="chk2" class="text-uppercase label-radio">Female</label>
+						</div>
+<!-- first name -->
+						<div class="input input-create">
+							<label for="first-name">First Name <span class="text-primary">*</span></label>
+							<input  type="text" name="" id="first-name">
+						</div>
+<!-- last name -->
+						<div class="input input-create">
+							<label for="last-name">Last Name <span class="text-primary">*</span></label>
+							<input  type="text" name="" id="last-name">
+						</div>
+<!-- birthday -->
+						<div class="input input-create">
+							<label for="birth">Birthday <span class="text-primary">*</span></label>
+							 <input type="date" id="birth">
+						</div>
+
+					</form>
+				</div>
+		</div>
+	</div>
+<!-- block with contact info -->
+	<div class="row bg-dark text-default">
+		<div class="col-lg-2 col-lg-offset-3">
+			<h3 class="text-capitalize">My Contact Information</h3>
+			<p class="text-justify" style="width:180px;">Be sure to keep your info current. We don't want to lose touch with you.</p>
+		</div>
+		<div class="col-lg-4 block-form">
+			<div class="sign_in-form">
+					<form>
+					<!-- address type -->
+						<div class="input input-create">
+							<label>address type <span class="text-primary">*</span></label>
+							<input  type="radio" name="address-type" id="rad1" value="male"><label for="rad1" class="text-uppercase label-radio">business</label>
+							<input  type="radio" name="address-type" id="rad2" value="female"><label for="rad2" class="text-uppercase label-radio">home</label>
+						</div>
+						<!-- street -->
+						<div class="input input-create">
+							<label for="street">street <span class="text-primary">*</span></label>
+							<input  type="text" id="street">
+						</div>
+						<!-- city -->
+						<div class="input input-create">
+							<label for="city">city <span class="text-primary">*</span></label>
+							<input  type="text" id="city">
+						</div>
+						<!-- state -->
+						<div class="input input-create">
+							<label for="state">state <span class="text-primary">*</span></label>
+							<input  type="text" id="state">
+						</div>
+
+<!-- zip -->
+						<div class="input input-create">
+							<label for="zip">Zip/postal <span class="text-primary">*</span></label>
+							<input  type="text" name="" id="zip">
+						</div>
+						<!-- country -->
+						<div class="input input-create">
+							<label for="country">country <span class="text-primary">*</span></label>
+							<input  type="text" name="" id="country">
+						</div>
+<!-- phone -->
+						<div class="input input-create">
+							<label for="phone">Phone <span class="text-primary">*</span></label>
+							<input  type="text" id="phone" style="width:40%">
+							<input type="checkbox" id="mob" ><label class="label-check-mob" for="mob">Mobile?</label>
+						</div>
+<!-- events -->
+						<div class="input input-create">
+							<label for="email-sign-in">DO YOU PLAN MEETINGS AND EVENTS? <span class="text-primary">*</span></label>
+							<input  type="radio" name="events"   id="rad3" value="true"><label for="rad3" class="text-uppercase label-radio">Yes</label>
+							<input  type="radio" name="events" id="rad4" value="false"><label for="rad4" class="text-uppercase label-radio">No</label>
+						</div>
+
+					</form>
+				</div>
+		</div>
+	</div>
+
+<!-- button next -->
+	<div class="row bg-dark text-default" >
+		<div class="col-lg-4 col-lg-offset-5">
+			<a ui-sref-active="active" ui-sref="registration.secondstep" class="btn btn-primary" >Next: Set Stay Preferences </a>
+		</div>
+	</div>
+
+</div>

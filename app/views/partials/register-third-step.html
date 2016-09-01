@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration</title>
+	<link rel="stylesheet" href="styles/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="styles/style.css">
+   <!--font-->
+   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,400italic,300,300italic,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>  
+</head>
+<body>
+<div>
+<!-- header -->
+	<header class="sign_in-header wider-header">
+		<h1>Smuggler<br class="visible-xs"><span class="text-primary">number</span></h1>
+	</header>
+
+<!-- 1,2,3 header steps -->
+	<div class="row steps">
+		<div class="col-lg-8 col-lg-offset-3">
+			<div class="step-block">
+				<a href="#" class="unstyled-link">
+					<div class="text-muted step">
+					<span class="number">1</span> Create Account</div>
+				</a>
+			</div><br class="visible-xs">
+			
+			<div class="step-block">
+				<a href="#" class="unstyled-link">
+					<div class="step text-muted">
+					<span class="number">2</span>Set Stay Preferences</div>
+				</a>	
+			</div><br class="visible-xs">
+
+			<div class="step-block">
+				<div class="text-primary"><span class="number">3</span> Stay Connected</div>
+			</div>
+		</div>	
+	</div>
+
+<!-- Our Updates -->
+	<div class="row bg-dark text-default" style="padding-top: 40px;">
+		<div class="col-lg-2 col-lg-offset-3">
+			<h3 class="text-capitalize">Our Updates</h3>
+			<p class="text-justify" style="width:180px;">We're spreading the news. Choose only what interests you, and we'll listen.</p>
+		</div>
+		<div class="col-lg-4 block-form">
+			<div class="sign_in-form">
+					<form>
+
+<!-- last min deals -->
+						<div class="input">
+							<input type="checkbox" id="lastmin">
+							<label for="lastmin" class="label-check--full">last minute deals</label> 
+							<p class="text-muted description">Weekly roundup of deals for our spontaneous travelers.</p>
+						</div>
+<!-- exclusive offers -->
+						<div class="input">
+							<input type="checkbox" id="exclusiveoffers">
+							<label for="exclusiveoffers" class="label-check--full">exclusive offers</label> 
+							<p class="text-muted description">When we have them, you’ll be the first to know. No more than 2 a week.</p>
+						</div>
+
+<!-- pets -->
+						<div class="input">
+							<input type="checkbox" id="pets">
+							<label for="pets" class="label-check--full">pets</label> 
+							<p class="text-muted description">Semi-annual newsletter, including our Annual Pet Photo contest.</p>
+						</div>
+<!-- DINE & DRINK -->
+						<div class="input">
+							<input type="checkbox" id="dineanddrink">
+							<label for="dineanddrink" class="label-check--full">DINE & DRINK</label> 
+							<p class="text-muted description">Quarterly newsletter to tantalize your tastebuds.</p>
+						</div>
+<!-- women-->
+						<div class="input">
+							<input type="checkbox" id="women">
+							<label for="women" class="label-check--full">women</label> 
+							<p class="text-muted description">Quarterly newsletter for women who are going places.</p>
+						</div>
+<!-- HEALTHY TRAVEL-->
+						<div class="input">
+							<input type="checkbox" id="healthytravel">
+							<label for="healthytravel" class="label-check--full">HEALTHY TRAVEL</label> 
+							<p class="text-muted description">Semi-annual newsletter from juicing to downward dog and everything in between.</p>
+						</div>	
+<!-- NEWSLETTERS & ACCOUNT SUMMARY-->
+						<div class="input">
+							<input type="checkbox" id="newsletters">
+							<label for="newsletters" class="label-check--full">NEWSLETTERS & ACCOUNT SUMMARY</label> 
+							<p class="text-muted description">Monthly offers and your account recap.</p>
+						</div>											
+<!-- UNSUBSCRIBE FROM ALL-->
+						<div class="input">
+							<input type="checkbox" id="unsubscribe">
+							<label for="unsubscribe" class="label-check--full">UNSUBSCRIBE FROM ALL</label> 
+							<p class="text-muted description">Monthly offers and your account recap.</p>
+						</div>
+
+<!-- emails frequency -->
+						<div class="input input-create">
+							<label for="frecuency">email frequency</label> 
+							<select id="frecuency">
+								<option>Select</option>
+								<option>Monthly</option>
+								<option>Weekly</option>			
+								<option>Only for big promotions</option>									
+							</select>				
+					</form>
+				</div>
+		</div>
+	</div>
+
+	<div class="row bg-dark text-default">
+		<div class="col-lg-2 col-lg-offset-3">
+			<h3 class="text-capitalize">Let's Be Friends</h3>
+			<p class="text-justify" style="width:180px;">We like connecting with you whether it's over a glass of wine in our lobby or over wifi in our social channels.</p>
+		</div>
+		<div class="col-lg-4 block-form">
+			<div class="sign_in-form">
+					<form>
+<!-- twitter -->					
+						<div class="input input-create">
+							<label for="twitter">twitter</label>
+							<input  type="text" name="" id="twitter">
+						</div>
+<!-- instagram -->					
+						<div class="input input-create">
+							<label for="instagram">instagram</label>
+							<input  type="text" name="" id="instagram">
+						</div>
+<!-- pinterest -->					
+						<div class="input input-create">
+							<label for="pinterest">pinterest</label>
+							<input  type="text" name="" id="pinterest">
+						</div>
+<!-- website/blog -->					
+						<div class="input input-create">
+							<label for="website/blog">website/blog</label>
+							<input  type="text" name="" id="website/blog">
+						</div>						
+						
+					</form>
+				</div>
+		</div>
+	</div>
+<!-- block with My Credit Card info -->
+	<div class="row bg-dark text-default">
+		<div class="col-lg-2 col-lg-offset-3">
+			<h3 class="text-capitalize">My Credit Card</h3>
+			<p class="text-justify" style="width:180px;">Just enter the last four digits of the credit card you use when dining out.</p>
+		</div>
+		<div class="col-lg-4 block-form">
+			<div class="sign_in-form">
+					<form>
+<!-- name card -->					
+						<div class="input input-create">
+							<label for="cardname">NAME YOUR CARD</label>
+							<input  type="text" name="" id="cardname">
+						</div>
+<!-- type -->
+						<div class="input input-create">
+							<label for="type">type</label> 
+							<select id="type">
+								<option>Select</option>
+								<option value="visa">Visa</option>
+								<option value="americanExpress">American Express</option>
+								<option value="mastercard">Mastercard</option>
+								<option value="discover">Discover</option>
+							</select>
+						</div>	
+<!-- card digits -->					
+						<div class="input input-create">
+							<label for="cardDigits">Last four digits</label>
+							<input  type="text" id="cardDigits" style="width:30%">
+						</div>		
+<!-- last name -->					
+						<div class="input input-create">
+							<label for="lastName">LAST NAME ON CARD</label>
+							<input  type="text" id="lastName">
+						</div>	
+<!-- add another card -->						
+						<div class="input input-create">
+							<a href="#" class="text-uppercase" style="float:right;">Add another card</a>
+						</div>							
+
+					</form>
+				</div>
+		</div>
+	</div>
+
+	<!-- block with terms -->
+	<div class="row bg-dark text-default">
+		<div class="col-lg-2 col-lg-offset-3">
+			<h3 class="text-capitalize">Terms</h3> 
+		</div>
+		<div class="col-lg-4 block-form">
+			<div class="sign_in-form">
+					<form>
+<!-- accept -->					
+						<div class="input">
+							<input type="checkbox" id="unsubscribe" checked>
+							<label for="unsubscribe" class="label-check--full">I accept</label> 
+							<p class="text-muted description">By checking this box, you are accepting the terms + conditions.</p>
+						</div>
+
+					</form>
+				</div>
+		</div>
+	</div>
+
+<!-- button next -->
+	<div class="row  bg-dark">
+		<div class="col-lg-2 col-lg-offset-3"> 
+				<a href="#" class="text-uppercase text-primary">Back to stay preferences</a>
+		</div>
+		<div class="col-lg-4">
+			<div class="btn btn-primary" style="margin:0px 0px 80px 0;">
+				<a href="#">Next: Finalize Account Signup <span style="font-size: 20px;">> </span></a>
+			</div>
+		</div>
+	</div>
+	
+</div>	
+</body>
+</html>
